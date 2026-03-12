@@ -7,8 +7,8 @@ class Solution {
             {
                 return new int[] {complement.get(nums[i]),i};
             }
-            int sub = target - nums[i];
-            complement.put(sub,i);
+            int subs = target - nums[i];
+            complement.put(subs,i);
         }
          return new int[] {};
     }
